@@ -1,0 +1,16 @@
+{
+    "name": "paulitolinhares/api-tabua-mares",
+    "description": "A wrapper for the tide table provided by the brazilian navy, forked from https://github.com/luiz-mai/api-tabua-mares",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paulo Linhares",
+            "email": "paulitolinhares@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "heroku/heroku-buildpack-php": "*"
+      }
+}
