@@ -76,5 +76,9 @@ $dia->medicoes = $medicoes;
 $dias[] = $dia;
 
 $json->dias = $dias;
+
+// Formatando o header para content/json
+header('Content-type: application/json');
+
 echo json_encode($json);
 ?>
